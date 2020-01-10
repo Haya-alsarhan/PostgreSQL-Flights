@@ -1,0 +1,14 @@
+-- Adminer 4.7.3 PostgreSQL dump
+
+INSERT INTO "flights" ("id", "origin", "destination", "duration") VALUES
+(1,	'New York',	'London',	415),
+(2,	'New York',	'paris',	700),
+(3,	'riyadh',	'paris',	760);
+
+INSERT INTO "passengers" ("id", "name", "flight_id") VALUES
+(1,	'Bob',	1),
+(2,	'Frank',	2),
+(3,	'Grace',	3),
+(4,	'Alice',	1);
+
+-- 2020-01-10 00:22:22.766546+00
